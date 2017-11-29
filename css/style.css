@@ -51,7 +51,10 @@ table, th, td {
     border: 1px solid #333;
     border-collapse: collapse;
     color: #ffffff;
-    
+}
+
+table {
+    display: block;
 }
 
 tr:nth-child(even) {background-color: #4f1d73;}
@@ -62,8 +65,10 @@ th, td {
     padding: 15px;
 }
 
+.hide {
+  display: none;
+}
 
-/* the following code (until the next comment) came from an excellent w3schools tutorial, but I edited it a lot to fit my needs. */
 .button {
   border-radius: 6px;
   background-color: #f1f511fa;
